@@ -8,8 +8,13 @@
     <title>UNITRI.Vt2</title>
 
     <script defer>
+        // Espera a página carregar pra executar o código
         window.onload = function(){
-            document.getElementById("madri").addEventListener("click", () => {
+            const madri = document.getElementById("madri"); // pega o destino de madri
+
+            // executa sempre que madri for clicado
+            madri.addEventListener("click", () => {
+                // Redireciona para a página de madri
                 window.location.href = "/madri.html"
             })
         }
