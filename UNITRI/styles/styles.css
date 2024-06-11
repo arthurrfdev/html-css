@@ -54,6 +54,8 @@ header {
     color: white;
     min-height: 200px;
     text-align: center;
+    padding-left: 7%;
+    padding-right: 7%;
 }
 header h1 {
     font-family: var(--font-title);
@@ -62,6 +64,7 @@ header h1 {
 header h2 {
     font-family: var(--font-destaque);
     font-size: 1.1em;
+    font-weight: justify;
 }
 header img {
     vertical-align: middle;
@@ -84,8 +87,16 @@ main article > h1 {
     font-weight: normal;
     background-image: linear-gradient(to right, var(--cor1), transparent);
     border-radius: 10px 0px 0px 10px;
-    padding-left: 5px;
+    padding-left: 15px;
+    padding-bottom: 2px;
     margin-bottom: 10px;
+}
+.dest-grupo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1vw;
 }
 main div.dest {
     background-color: var(--cor3);
@@ -97,6 +108,10 @@ main div.dest {
     font-weight: bold;
     font-size: 1.2em;
     margin-bottom: 10px;
+}
+main div.dest:hover {
+    scale: 1.01 1.01;
+    cursor: pointer;
 }
 main div.dest h1 {
     font-family: var(--font-destaque);
@@ -132,7 +147,7 @@ footer {
     color: white;
     text-align: center;
     font-size: 0.9em;
-    padding: 5px
+    padding: 5px;
 }
 footer a {
     color : white;
