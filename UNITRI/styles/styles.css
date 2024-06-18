@@ -102,6 +102,8 @@ main div.dest {
     background-color: var(--cor3);
     display: inline-block;
     border-radius: 10px;
+    border: 2px solid var(--cor1);
+    box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.367);
     width: 500px;
     height: 500px;
     padding: 10px;
@@ -110,7 +112,7 @@ main div.dest {
     margin-bottom: 10px;
 }
 main div.dest:hover {
-    scale: 1.01 1.01;
+    scale: 1.02 1.02;
     cursor: pointer;
 }
 main div.dest h1 {
